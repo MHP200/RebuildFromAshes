@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* light gray background */
+}
+
+h1 {
+    color: #333; /* dark gray */
+}
+
+h2 {
+    color: #666; /* medium gray */
+}
+
+p {
+    color: #999; /* light gray */
+}
+
+.design {
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e9ecef; /* slightly darker gray background */
+}
