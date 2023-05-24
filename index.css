@@ -33,7 +33,7 @@
 
     display: flex;
     justify-content: center;
-    padding: 2% 20%;
+    padding: 2% 25%;
     gap: 500px;
 
 
@@ -52,7 +52,12 @@
     height: 80%;
 }
 
-h3 {
+#buttonouter {
 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
