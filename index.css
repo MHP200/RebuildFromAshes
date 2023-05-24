@@ -1,11 +1,19 @@
 :root {
 
-    font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+
+    font-size: 19px;
 
 }
 
 #header {
 
+    display: flex;
+    align-items: center;
     padding: 30px 3%;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -33,7 +41,7 @@
 
     display: flex;
     justify-content: center;
-    padding: 2% 25%;
+    padding: 2% 20%;
     gap: 500px;
 
 
@@ -41,6 +49,7 @@
 
 #picturewrapper {
  
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,14 +59,38 @@
 .image {
     width: 80%;
     height: 80%;
+    margin-top: 14px;
 }
 
 #buttonouter {
 
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+
+}
+
+#figmabutton {
+
+    padding: 10px 20px;
+
+    border-style: none;
+    background-color: green;
+    
+    margin-left: auto;
+    border-radius: 20px;
+
+}
+
+#outerlink {
+    margin-left: auto;
+}
+
+#figmabutton > *{
+
+    color: white;
+    font-size: large;
 
 }
